@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .rotate-box {
+            transition: transform 0.6s ease-in-out;
+        }
+        .rotate-box:hover {
+            transform: rotateY(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="assignment" class="container mx-auto py-12">
+        <h1 class="text-4xl font-bold text-center mb-8">OUR SERVICES</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6 rotate-box">
+                <div class="flex items-center mb-4">
+                    <svg class="w-12 h-12 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h2 class="ml-4 text-xl font-bold text-gray-800">Emergency Plumbing Services</h2>
+                </div>
+                <p class="text-gray-600 text-sm">Our plumbers are ready to go 24/7 for emergencies - including nights, weekends and holidays.</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4">Explore This Service</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 rotate-box">
+                <div class="flex items-center mb-4">
+                    <svg class="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11z"></path></svg>
+                    <h2 class="ml-4 text-xl font-bold text-gray-800">Plumbing and Drains</h2>
+                </div>
+                <p class="text-gray-600 text-sm">As the largest plumbing and drain service company, we make thousands of repairs every day.</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4">Explore This Service</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 rotate-box">
+                <div class="flex items-center mb-4">
+                    <svg class="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h2 class="ml-4 text-xl font-bold text-gray-800">Water Damage</h2>
+                </div>
+                <p class="text-gray-600 text-sm">Our teams are equipped with state-of-the-art water extraction and cleanup equipment.</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4">Explore This Service</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 rotate-box">
+                <div class="flex items-center mb-4">
+                    <svg class="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h2 class="ml-4 text-xl font-bold text-gray-800">Water Heaters</h2>
+                </div>
+                <p class="text-gray-600 text-sm">Trust Roto-Rooter for repair and replacement of gas, electric and tankless water heaters.</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4">Explore This Service</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
